@@ -105,10 +105,10 @@ Alguns links que podem ser interessantes... mesmo!!
 
 #### Para seguir
 
-* Linus Torvalds [<i class="fa fa-github"></i>](https://github.com/torvalds) [<i class="fa fa-twitter"></i>](https://twitter.com/linus__torvalds)
-* Brendan Eich [<i class="fa fa-github"></i>](https://github.com/BrendanEich) [<i class="fa fa-twitter"></i>](https://twitter.com/brendaneich)
-* Eric Elliot [<i class="fa fa-github"></i>](https://github.com/ericelliott) [<i class="fa fa-twitter"></i>](https://twitter.com/_ericelliott)
-* Jeff Atwood [<i class="fa fa-github"></i>](https://github.com/coding-horror) [<i class="fa fa-twitter"></i>](https://twitter.com/codinghorror) [<i class="fa fa-rss"></i>](http://blog.codinghorror.com/)
-* Martin Fowler [<i class="fa fa-twitter"></i>](https://twitter.com/martinfowler) [<i class="fa fa-rss"></i>](http://martinfowler.com/bliki/)
-* Eric Bidelman [<i class="fa fa-github"></i>](https://github.com/ebidel) [<i class="fa fa-twitter"></i>](https://twitter.com/ebidel)
-* Douglas Crockford [<i class="fa fa-github"></i>](https://github.com/douglascrockford)
+* Linus Torvalds [<i class="fa fa-github" title="GitHub">GitHub</i>](https://github.com/torvalds) [<i class="fa fa-twitter" title="Twitter">Twitter</i>](https://twitter.com/linus__torvalds)
+* Brendan Eich [<i class="fa fa-github" title="GitHub">GitHub</i>](https://github.com/BrendanEich) [<i class="fa fa-twitter" title="Twitter">Twitter</i>](https://twitter.com/brendaneich)
+* Eric Elliot [<i class="fa fa-github" title="GitHub">GitHub</i>](https://github.com/ericelliott) [<i class="fa fa-twitter" title="Twitter">Twitter</i>](https://twitter.com/_ericelliott)
+* Jeff Atwood [<i class="fa fa-github" title="GitHub">GitHub</i>](https://github.com/coding-horror) [<i class="fa fa-twitter" title="Twitter">Twitter</i>](https://twitter.com/codinghorror) [<i class="fa fa-rss" title="Blog">Blog</i>](http://blog.codinghorror.com/)
+* Martin Fowler [<i class="fa fa-twitter" title="Twitter">Twitter</i>](https://twitter.com/martinfowler) [<i class="fa fa-rss" title="Blog">Blog</i>](http://martinfowler.com/bliki/)
+* Eric Bidelman [<i class="fa fa-github" title="GitHub">GitHub</i>](https://github.com/ebidel) [<i class="fa fa-twitter" title="Twitter">Twitter</i>](https://twitter.com/ebidel)
+* Douglas Crockford [<i class="fa fa-github" title="GitHub">GitHub</i>](https://github.com/douglascrockford)
