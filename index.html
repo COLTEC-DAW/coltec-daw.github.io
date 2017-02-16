@@ -1,87 +1,127 @@
 ---
 layout: default
 ---
-<script src="{{ "/styles/index.js" | prepend: site.baseurl }}"></script>
-<div>
-  <a id="posts-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_posts();">{{ site.posts_btn }}</a>
-  <a id="projects-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_projects();">{{ site.projects_btn }}</a>
-</div>
-<div id="posts">
 
-  <h2 class="my-mini-heading">{{ site.posts_btn }}</h2>
+<p class="lead">Esta página contém informações básicas acerca da disciplina Desenvolvimento de Aplicações Web (DAW), lecionada no curso de Informática do COLTEC/MG.</p>
 
-  <ul>
-    {% for post in site.posts %}
-    <li>
-      <p class="my-item">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="my-link">{{ post.title }}</a><br>
-        <span class="my-item-sub">{{ post.date | date: "%b %-d, %Y" }}</span><br>
-          {{ post.content | strip_html | truncatewords: 20 }}
-      </p>
-    </li>
-    {% endfor %}
-    <li>
-      <p class="my-item">
-        <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="my-link">RSS</a> / <a href="{{ "/atom.xml" | prepend: site.baseurl }}" class="my-link">ATOM</a><br>
-        <i class="fa fa-rss" aria-hidden="true"></i> {{ site.rss_badge }}
-    </li>
-  </ul>
+<p>A disciplina tem como objetivo ensinar ao aluno conceitos e princípios básicos sobre desenvolvimento web.</p>
 
-  <div>
-    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
-  </div>
-</div>
+<p>Com viés prático, a disciplina apresenta ao aluno não somente as principais tecnologias de desenvolvimento, como também as ferramentas necessárias para utilizá-las. Desta forma, o aluno que cursar a disciplina estará apto a propor soluções e desenvolver sistemas voltados para a plataforma web.</p>
 
+<h5 id="toc_2">Ementa</h5>
 
-<div id="projects">
-  <h2 class="my-mini-heading">{{ site.projects_btn }}</h2>
-  <ul>
-    {% for project in site.data.projects %}
-    <li>
-      <p class="my-item"><a href="{{ project.link }}" class="my-link">{{ project.name }}</a><br>
-        {{ project.description }}
-      </p>
-    </li>
-    {% endfor %}
-  </ul>
-  <div>
-    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
-  </div>
-</div>
+<p>As aulas são divididas em três módulos principais:</p>
 
-<noscript>
-  <div id="posts-noscript">
+<h6 id="toc_3">Desenvolvimento Front-End</h6>
 
-    <h2 class="my-mini-heading">{{ site.posts_btn }}</h2>
+<p>Aborda aspectos relacionados a interface da página web, referenciada como front-end. Neste módulo, o aluno irá aprender sobre HTML, CSS, JavaScript, etc.</p>
 
-    <ul>
-      {% for post in site.posts %}
-      <li>
-        <p class="my-item">
-          <a href="{{ post.url | prepend: site.baseurl }}" class="my-link">{{ post.title }}</a><br>
-          <span class="my-item-sub">{{ post.date | date: "%b %-d, %Y" }}</span>
-        </p>
-      </li>
-      {% endfor %}
-      <li>
-        <p class="my-item">
-          <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="my-link">RSS</a> / <a href="{{ "/atom.xml" | prepend: site.baseurl }}" class="my-link">ATOM</a><br>
-          <span class="my-item-sub"><i class="fa fa-rss" aria-hidden="true"></i> {{ site.rss_badge }}</span>
-      </li>
-    </ul>
-  </div>
-  <div id="projects-noscript">
-    <h2 class="my-mini-heading">{{ site.projects_btn }}</h2>
-    <ul>
-      {% for project in site.data.projects %}
-      <li>
-        <p class="my-item"><a href="{{ project.link }}" class="my-link">{{ project.name }}</a><br>
-          <span class="my-item-sub">
-        {{ project.description }}
-      </span>
-        </p>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-</noscript>
+<h6 id="toc_4">Desenvolvimento Back-End</h6>
+
+<p>Aborda aspectos relacionados ao processamento de um sistema web no servidor. Neste módulo, o aluno irá aprender principalmente sobre banco de dados, e PHP.</p>
+
+<h6 id="toc_5">Técnicas Avançadas de Desenvolvimento Web</h6>
+
+<p>Este módulo irá apresentar ao aluno técnicas avançadas de desenvolvimento, tais como responsive design, CMS, WebServices, etc.</p>
+
+<h5 id="toc_6">Material</h5>
+
+<p>O material será compartilhado pode ser consultado diretamente nos repositórios <a href="http://github.com/coltec-daw">GitHub</a> da disciplina. Nos repositórios você encontrará recursos como slides, exercícios, <a href="2017_cronograma.pdf">cronogramas</a>, etc.</p>
+
+<h5 id="toc_7">Avaliações</h5>
+
+<p>As avaliações terão foco prático, sendo realizadas em laboratório. O tempo de prova está limitado ao período da aula: geralmente 1 hora 40 minutos. As avaliações serão aplicadas pelo menos uma vez por trimestre.</p>
+
+<h5 id="toc_8">Exercícios &amp; Trabalhos Práticos</h5>
+
+<ul>
+<li>Todo tópico a ser apresentado na disciplina é composto por uma lista de exercícios.</li>
+<li>A entrega dos exercícios será feita por meio do GitHub.</li>
+<li>Exercícios entregues fora do prazo serão desconsiderados.</li>
+<li>Qualquer tentativa de cópia -- parcial ou integral -- será prontamente anulada pelo professor.</li>
+<li>O professor se reserva no direito de adicionar novas regras, ou complementar as atuais sem aviso prévio.</li>
+</ul>
+
+<h6 id="toc_9">Fluxo de Entrega</h6>
+
+<p>Todo exercício deverá ser entregue via <a href="http://www.github.com">GitHub</a> por meio de pull requests. Para isso, aconselho o uso do programa <a href="https://desktop.github.com/">Github Desktop</a>. Os passos gerais para entrega são:</p>
+
+<ol>
+<li>Fazer o fork do repositório do exercício/trabalho.</li>
+<li>Fazer o clone do repositório na sua máquina.</li>
+<li>Realizar as implementações necessárias.
+
+<ol>
+<li>Lembre-se de fazer o commit das suas mudanças a medida em que completar o exercício.</li>
+</ol></li>
+<li>Verificar que você fez os commits de seu exercício.</li>
+<li>Fazer o push/sync para seu repositório do GitHub.</li>
+<li>Criar um pull request para o repositório original.</li>
+</ol>
+
+<p>O feedback do exercício será feito dentro da issue aberta no pull request, então sinta-se a vontade para esclarecer dúvidas e fazer perguntas após avaliação!!</p>
+
+<h5 id="toc_10">Seminários</h5>
+
+<p>Os seminários são compostos por palestras a serem apresentadas pelos alunos sobre alguns tópicos da área de tecnologia. As palestras trazem inúmeros benefícios, tais como:</p>
+
+<ul>
+<li>Melhoria da comunicação verbal e corporal</li>
+<li>Trabalha a sintetização do conteúdo</li>
+<li>Auto-organização</li>
+<li>Improvisação</li>
+<li>etc..</li>
+</ul>
+
+<p>Os seminários deverão ser apresentados individualmente, no decorrer do ano. Além de apresentar o conteúdo, o palestrante deverá propor uma atividade para os alunos, que deverá ser entregue posteriormente.</p>
+
+<h5 id="toc_11">Check this out!!</h5>
+
+<p>Alguns links que podem ser interessantes... mesmo!!</p>
+
+<h6 id="toc_12">Para ler</h6>
+
+<ul>
+<li><a href="http://marksheet.io/"><i class="fa fa-star"></i> MarkSheet: HTML &amp; CSS Tutorial</a></li>
+<li><a href="https://developer.mozilla.org/pt-BR/docs/Web"><i class="fa fa-star"></i> Mozilla Developer Network</a></li>
+<li><a href="http://www.amazon.com/CSS3-Missing-David-Sawyer-McFarland/dp/1449325947">CSS3: The missing manual</a>, David McFarland.</li>
+<li><a href="http://css3please.com/">CSS3 please!</a></li>
+<li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md"><i class="fa fa-star"></i> Free Programming Books</a></li>
+<li><a href="http://www.w3schools.com/">w3schools</a></li>
+<li><a href="http://eloquentjavascript.net/"><i class="fa fa-star"></i> Eloquent JavaScript</a>, Marjin Haverbeke.</li>
+<li><a href="http://api.jquery.com/">jQuery API</a></li>
+<li><a href="https://github.com/html5rocks/slides.html5rocks.com">HTML5 Rocks!!</a></li>
+<li><a href="http://abookapart.com/products/responsive-web-design">Responsive Web Design</a>, Ethan Marcotte.</li>
+<li><a href="http://php.net/">PHP.net</a></li>
+<li><a href="http://www.phptherightway.com/">PHP The Right Way</a></li>
+<li><a href="https://thinkster.io/a-better-way-to-learn-angularjs"><i class="fa fa-star"></i> A Better Way to Learn AngularJS</a></li>
+<li><a href="http://pcottle.github.io/learnGitBranching/"><i class="fa fa-star"></i> Learn Git Branching</a></li>
+</ul>
+
+<h6 id="toc_13">Para ver</h6>
+
+<ul>
+<li><a href="http://www.thewildernessdowntown.com/">The Wilderness Downtown</a></li>
+<li><a href="https://swapi.co/">The Star Wars API</a></li>
+<li><a href="http://pokeapi.co/">The Pokemon API</a></li>
+<li><a href="http://www.awwwards.com/">Awwwards</a></li>
+<li><a href="http://oldweb.today/">oldweb.today</a></li>
+</ul>
+
+<h6 id="toc_14">Para usar</h6>
+
+<ul>
+<li><a href="http://www.sassmeister.com/">SASS Meister: The Sass Playground</a></li>
+</ul>
+
+<h6 id="toc_15">Para seguir</h6>
+
+<ul>
+<li>Linus Torvalds <a href="https://github.com/torvalds"><i class="fa fa-github" title="GitHub"></i></a> <a href="https://twitter.com/linus__torvalds"><i class="fa fa-twitter" title="Twitter"></i></a></li>
+<li>Brendan Eich <a href="https://github.com/BrendanEich"><i class="fa fa-github" title="GitHub"></i></a> <a href="https://twitter.com/brendaneich"><i class="fa fa-twitter" title="Twitter"></i></a></li>
+<li>Eric Elliot <a href="https://github.com/ericelliott"><i class="fa fa-github" title="GitHub"></i></a> <a href="https://twitter.com/_ericelliott"><i class="fa fa-twitter" title="Twitter"></i></a></li>
+<li>Jeff Atwood <a href="https://github.com/coding-horror"><i class="fa fa-github" title="GitHub"></i></a> <a href="https://twitter.com/codinghorror"><i class="fa fa-twitter" title="Twitter"></i></a> <a href="http://blog.codinghorror.com/"><i class="fa fa-rss" title="Blog"></i></a></li>
+<li>Martin Fowler <a href="https://twitter.com/martinfowler"><i class="fa fa-twitter" title="Twitter"></i></a> <a href="http://martinfowler.com/bliki/"><i class="fa fa-rss" title="Blog"></i></a></li>
+<li>Eric Bidelman <a href="https://github.com/ebidel"><i class="fa fa-github" title="GitHub"></i></a> <a href="https://twitter.com/ebidel"><i class="fa fa-twitter" title="Twitter"></i></a></li>
+<li>Douglas Crockford <a href="https://github.com/douglascrockford"><i class="fa fa-github" title="GitHub"></i></a></li>
+</ul>

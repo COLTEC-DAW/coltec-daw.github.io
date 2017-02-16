@@ -11,7 +11,13 @@
           <i class="fa fa-map-marker"></i> {{ site.location }}
         </p>
         <div class="row">
-          <div class="col s12 m8 offset-m2 l6 offset-l3">
+          <div class="col s12 m8 offset-m2 l10 offset-l1">
+            <div id="menu">
+              <a id="home-btn" href="{{site.baseurl}}/" class="waves-effect waves-teal btn-flat btn-large">{{ site.home_btn }}</a>
+              <a id="classes-btn" class="waves-effect waves-teal btn-flat btn-large">{{ site.classes_btn }}</a>
+              <a id="students-btn" class="waves-effect waves-teal btn-flat btn-large">{{ site.students_btn }}</a>
+            </div>
+            <hr>
             {{ content }}
           </div>
         </div>
