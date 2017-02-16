@@ -30,7 +30,7 @@ Este módulo irá apresentar ao aluno técnicas avançadas de desenvolvimento, t
 
 ### Material
 
-O material será compartilhado pode ser consultado diretamente nos repositórios [GitHub](http://github.com/coltec-daw) da disciplina. Nos repositórios você encontrará recursos como slides, exercícios, cronogramas, etc.
+O material será compartilhado pode ser consultado diretamente nos repositórios [GitHub](http://github.com/coltec-daw) da disciplina. Nos repositórios você encontrará recursos como slides, exercícios, [cronogramas](2017_cronograma.pdf), etc.
 
 ### Avaliações
 
@@ -116,6 +116,6 @@ Alguns links que podem ser interessantes... mesmo!!
 
 ---
 
-## Material
+### Material
 
 1. [HTML](https://coltec-daw.github.io/Aula-01-HTML/)
