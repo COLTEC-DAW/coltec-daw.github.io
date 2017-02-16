@@ -118,4 +118,4 @@ Alguns links que podem ser interessantes... mesmo!!
 
 ### Material
 
-1. [HTML](https://coltec-daw.github.io/Aula-01-HTML/)
+1. [HTML](https://coltec-daw.github.io/Aula-01-HTML/) -- [Exercícios](https://github.com/COLTEC-DAW/E01-HTML)
