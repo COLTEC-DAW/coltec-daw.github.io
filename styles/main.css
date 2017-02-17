@@ -283,3 +283,16 @@ h1 {
     font-size: 130%;
     font-style: italic;
 }
+
+#classes > div {
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+
+#classes > .row {
+    margin: 0px;
+}
+
+#classes > .row:nth-of-type(odd) {
+    background-color: #f5f5f5;
+}
