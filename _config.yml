@@ -1,17 +1,16 @@
 title: "Desenvolvimento de Aplicações Web"
 description: "Disciplina voltada para o 3º ano do Curso Técnico em Informática do COLTEC/UFMG."
-about: "João Eduardo Montandon"
 location: "COLTEC/UFMG"
-email: joao.montandon@dcc.ufmg.br
+email: joao.montandon [at] dcc [dot] ufmg [dot] br
 baseurl: ""
 
 url: "http://coltec-daw.github.io" # replace by your site's url
 twitter_username: EduMontandon
 github_username:  coltec-daw
-author: "Desenvolvimento de Aplicações Web"
+author: "João Eduardo Montandon"
 
 # google analytics tracking code, please change the value
-g_analytics: ""
+g_analytics: "UA-92178302-2"
 
 # add your disqus to enable comments
 disqus_shortname:
