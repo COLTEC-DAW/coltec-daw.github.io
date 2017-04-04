@@ -284,19 +284,19 @@ h1 {
     font-style: italic;
 }
 
-#classes > div {
+.stripped > div {
     padding-top: 10px; 
     padding-bottom: 10px;
 }
 
-#classes > .row {
+.stripped > .row {
     margin: 0px;
 }
 
-#classes > .row:nth-of-type(odd) {
+.stripped > .row:nth-of-type(odd) {
     background-color: #f5f5f5;
 }
 
-#classes > div {
+.stripped > div {
     text-align: center;
 }
