@@ -1,8 +1,8 @@
 # Desenvolvimento de Aplicações Web
 
-**COLTEC/UFMG**
+COLTEC/UFMG
 
-**Professor: João Eduardo Montandon**
+Professor: João Eduardo Montandon
 
 ## Sumário
 
@@ -30,7 +30,7 @@ Este módulo irá apresentar ao aluno técnicas avançadas de desenvolvimento, t
 
 ### Material
 
-O material será compartilhado pode ser consultado diretamente nos repositórios [GitHub](http://github.com/coltec-daw) da disciplina. Nos repositórios você encontrará recursos como slides, exercícios, [cronogramas](2017_cronograma.pdf), etc.
+O material será compartilhado pode ser consultado diretamente nos repositórios [GitHub](http://github.com/coltec-daw) da disciplina. Nos repositórios você encontrará recursos como slides, exercícios, [cronogramas](cronograma.pdf), etc.
 
 ### Avaliações
 
@@ -51,7 +51,7 @@ Todo exercício deverá ser entregue via [GitHub](http://www.github.com) por mei
 1. Fazer o fork do repositório do exercício/trabalho.
 2. Fazer o clone do repositório na sua máquina.
 3. Realizar as implementações necessárias.
-  1. Lembre-se de fazer o commit das suas mudanças a medida em que completar o exercício.
+    * Lembre-se de fazer o commit das suas mudanças a medida em que completar o exercício.
 4. Verificar que você fez os commits de seu exercício.
 5. Fazer o push/sync para seu repositório do GitHub.
 6. Criar um pull request para o repositório original.
